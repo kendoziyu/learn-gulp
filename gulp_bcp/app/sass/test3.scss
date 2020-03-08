@@ -1,0 +1,15 @@
+.box {
+  .title {// 相当于 .box .title
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  .content {
+    padding: 10px;
+    .pager {
+      text-align: center;
+    }
+  }  // &表示外层的元素
+  &:hover { // 相当于 .box:hover
+    outline: 1px solid #ddd;
+  }
+}
