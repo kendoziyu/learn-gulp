@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "best-require": "^1.1.4",
-    "merge": "^1.2.1"
+    "merge": "^2.1.1"
   }
 }
